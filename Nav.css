@@ -1,0 +1,58 @@
+@font-face {
+    font-family: GreatVibesRegular;
+    src: url(./fonts/GreatVibesRegular.ttf);
+}
+
+@font-face {
+    font-family: Nav;
+    src: url(./fonts/Nav.ttf);
+}
+
+@font-face {
+    font-family: RollgatesLuxury;
+    src: url(./fonts/RollgatesLuxury.ttf);
+}
+@font-face {
+    font-family: Southine;
+    src: url(./fonts/Southine.otf);
+}
+@font-face {
+    font-family: LeytonPersonal;
+    src: url(./fonts/LeytonPersonal.otf);
+}
+h1{
+    font-family: LeytonPersonal;
+    margin: 0px;
+    padding: 0px;
+    font-size: 1.5rem;
+}
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: sticky;
+}
+
+Nav ul {
+    list-style: none;
+    display: flex;
+}
+
+ul li a {
+    font-family: Nav;
+    text-decoration: none;
+    display: block;
+    margin: 5px;
+    padding: 20px;
+    color: #000000;
+    transform: scale(.9);
+    transition: .2s;
+}
+ul li a:hover{
+    color: orange;
+    transform: scale(1);
+}
+ul li a:active{
+    color: orange;
+    transform: scale(.9);
+}
