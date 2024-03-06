@@ -95,3 +95,14 @@ section {
     position: absolute;
     right: 120px;
 }
+@media all and (max-width:400px){
+    section{
+        flex-direction: column;
+    }
+    .card_1{
+        flex-direction: column;
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+    }
+}
