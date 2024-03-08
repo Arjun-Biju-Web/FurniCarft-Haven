@@ -22,7 +22,8 @@
     font-family: LeytonPersonal;
     src: url(./fonts/LeytonPersonal.otf);
 }
-*{
+
+* {
     margin: 0px;
     padding: 0px;
 }
@@ -40,9 +41,11 @@ header {
     align-items: center;
     position: sticky;
 }
-Nav{
+
+Nav {
     padding: 0px;
 }
+
 Nav ul {
     list-style: none;
     display: flex;
@@ -69,19 +72,25 @@ ul li a:active {
     color: orange;
     transform: scale(.9);
 }
-@media all and (max-width:400px){
-    Nav{
+
+@media all and (max-width:500px) {
+    header {
         flex-direction: column;
     }
-    ul{
+
+    ul {
         flex-direction: column;
         justify-content: flex-start;
         align-items: flex-start;
+        align-content: flex-start;
+        left: 0%;
         width: 100%;
     }
-    h1{
+
+    h1 {
         flex-direction: column;
-        justify-content: flex-start;
-        align-items: flex-start;
+        justify-content: center;
+        align-items: center;
+        top: 0%;
     }
 }
