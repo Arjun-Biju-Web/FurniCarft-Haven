@@ -208,3 +208,186 @@ body {
     }
 
 }
+@media all and (max-width:768px){
+    .Banner{
+        position: relative;
+    }
+    .design_1{
+        flex-direction: column;
+        width: 90%;
+        height: 100%;
+        margin: auto;
+        overflow: hidden;
+
+    }
+    .design_1 > img{
+        display: flex;
+        flex-direction: column;
+        height: 50%;
+        width: 100%;
+        margin: auto;
+    }
+    .design_1 > .offer{
+        display: flex;
+        flex-direction: column;
+        height: 50%;
+        width: 100%;
+        margin: auto;
+        gap: 20px;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        overflow: hidden;
+    }
+    .Explore > .Products{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        position: relative;
+    }
+    .Explore > .deals{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        width: 90%;
+        margin: auto;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        padding: auto;
+    }
+    .Products{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+    }
+    .Explore{
+        height: 100%;
+    }
+
+}
+@media all and (max-width:992px){
+    .Banner{
+        position: relative;
+    }
+    .design_1{
+        flex-direction: column;
+        width: 90%;
+        height: 100%;
+        margin: auto;
+        overflow: hidden;
+
+    }
+    .design_1 > img{
+        display: flex;
+        flex-direction: column;
+        height: 50%;
+        width: 100%;
+        margin: auto;
+    }
+    .design_1 > .offer{
+        display: flex;
+        flex-direction: column;
+        height: 50%;
+        width: 100%;
+        margin: auto;
+        gap: 20px;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        overflow: hidden;
+    }
+    .Explore > .Products{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        position: relative;
+    }
+    .Explore > .deals{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        width: 90%;
+        margin: auto;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        padding: auto;
+    }
+    .Products{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+    }
+    .Explore{
+        height: 100%;
+    }
+
+}
+@media all and (max-width:1200px){
+    .Banner{
+        position: relative;
+    }
+    .design_1{
+        flex-direction: column;
+        width: 90%;
+        height: 100%;
+        margin: auto;
+        overflow: hidden;
+
+    }
+    .design_1 > img{
+        display: flex;
+        flex-direction: column;
+        height: 50%;
+        width: 100%;
+        margin: auto;
+    }
+    .design_1 > .offer{
+        display: flex;
+        flex-direction: column;
+        height: 50%;
+        width: 100%;
+        margin: auto;
+        gap: 20px;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        overflow: hidden;
+    }
+    .Explore > .Products{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        position: relative;
+    }
+    .Explore > .deals{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        width: 90%;
+        margin: auto;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+        padding: auto;
+    }
+    .Products{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        align-content: center;
+    }
+    .Explore{
+        height: 100%;
+    }
+
+}
