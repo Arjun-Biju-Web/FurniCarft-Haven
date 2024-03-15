@@ -1,0 +1,165 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/*video{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    object-fit: cover;
+    height: 100vh;
+    width: 100%;
+}*/
+.title_1 {
+    font-size: 3rem;
+    color: gold;
+    text-align: center;
+}
+
+#grid_box {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    width: 90%;
+    margin: auto;
+}
+
+#card1 {
+    height: 500px;
+    width: 400px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    margin-top: 20px;
+    margin-left: 20px;
+    position: relative;
+}
+
+#card1_img {
+    height: 450px;
+    width: 350px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin: auto;
+}
+#card2_img {
+    height: 450px;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin: auto;
+}
+#card3_img {
+    height: 450px;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin: auto;
+}
+#card4_img {
+    height: 450px;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin: auto;
+}
+#card5_img {
+    height: 450px;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin: auto;
+}
+#card6_img {
+    height: 450px;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin: auto;
+}
+#card7_img {
+    height: 450px;
+    width: 400px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin: auto;
+}
+#card6_img>img {
+    height: 100%;
+    width: 95%;
+}
+#card1_img>img {
+    height: 80%;
+    width: 100%;
+}
+#card4_img>img{
+    height: 100%;
+    width: 85%;
+}
+
+#overlay_1 {
+    height: 450px;
+    width: 400px;
+    background-color: rgba(0, 0, 0, 0.1);
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    opacity: 0;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: opacity 1s;
+}
+
+#overlay_1:hover {
+    opacity: 1;
+    background-color: rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}
+
+.card_heading {
+    overflow: hidden;
+    height: 30px;
+    width: 350px;
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.card_text {
+    margin: auto;
+    cursor: grab;
+    height: 90px;
+    width: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.button {
+    overflow: hidden;
+    height: 30px;
+    width: 350px;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.price {
+    margin: 0px;
+    padding: 0px;
+    position: absolute;
+    right: 120px;
+}
+
+#overlay_1>p {
+    color: white;
+    font-size: 2rem;
+}
