@@ -28,8 +28,9 @@
     padding: 0px;
 }
 
-h1 {
+.title {
     font-family: LeytonPersonal;
+    color: gold;
     margin: 0px;
     padding: 0px;
     font-size: 1.5rem;
@@ -40,6 +41,7 @@ header {
     justify-content: center;
     align-items: center;
     position: sticky;
+    background-color: rgba(0, 0, 0, 0.893);
 }
 
 Nav {
@@ -57,19 +59,19 @@ ul li a {
     display: block;
     margin: 5px;
     padding: 20px;
-    color: #000000;
+    color: rgb(255, 179, 0);
     transform: scale(.9);
     transition: .2s;
     width: 100%;
 }
 
 ul li a:hover {
-    color: orange;
+    color: rgb(255, 0, 0);
     transform: scale(1);
 }
 
 ul li a:active {
-    color: orange;
+    color: rgb(255, 0, 0);
     transform: scale(.9);
 }
 

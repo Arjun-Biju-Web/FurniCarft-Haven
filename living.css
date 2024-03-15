@@ -1,0 +1,19 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+video{
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    object-fit: cover;
+    height: 100vh;
+    width: 100%;
+}
+header{
+    background-color: rgba(0, 0, 0, 0.893);
+}
+h2{
+    font-size: large;
+    color: #eee;
+}
